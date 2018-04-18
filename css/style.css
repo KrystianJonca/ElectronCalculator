@@ -5,7 +5,7 @@ body{
     background-color: #386786;
     overflow: hidden;
 }
-#calculator{
+#calc{
     width: 240px;
     margin-right: auto;
     margin-left: auto;
@@ -24,16 +24,15 @@ body{
     font-size: 35px;
     height: 60px;
 }
-#equals{
+#eq{
     width: 240px;
     background-color: #ff6600;
 }
-#equals:hover{
+#eq:hover{
     width: 240px;
     color: #ff6600;
     background-color: #ffffff;
 }
-
 input{
     text-align: center;
     font-size: 25px;
@@ -53,11 +52,11 @@ input:focus{
     box-shadow: 0 0 5px 1px #c0c0c0;  
     outline: none;
 }
-.operator{
+.op{
     background-color: #48b6ff;
     color: #ffffff;
 }
-.operator:hover{
+.op:hover{
     color: #48b6ff;
     background-color: #ffffff;
 }
