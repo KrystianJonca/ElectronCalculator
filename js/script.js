@@ -5,9 +5,9 @@ function show(val) {
 }
 function math(val) {
 	if (display.innerText == "Error" || display.innerText == "NaN") {
-		show("");
+		return show("");
 	} 
-	if (display.innerText.length < 10) display.innerText += val;
+	if (display.innerText.length < 10) return display.innerText += val;
 }
 function equals() {
 	display.innerText = display.innerText.replace("x", "*");
