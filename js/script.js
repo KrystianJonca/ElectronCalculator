@@ -10,6 +10,7 @@ function math(val) {
 	if (display.innerText.length < 10) return display.innerText += val;
 }
 function equals() {
+	if(!display.innerText) return;
 	display.innerText = display.innerText.replace("x", "*");
 	display.innerText = display.innerText.replace("÷", "/");
 	try {
