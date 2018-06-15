@@ -1,6 +1,5 @@
 const {app, BrowserWindow} = require('electron');
 const path = require('path');
-const url = require('url');
   
 function createWindow () {
     let mainWindow = new BrowserWindow({
@@ -14,11 +13,7 @@ function createWindow () {
         icon: path.join(__dirname,"icon/icon.ico")
     });
   
-    mainWindow.loadURL(url.format({
-      pathname: path.join(__dirname, 'index.html'),
-      protocol: 'file:',
-      slashes: true
-    }));
+    mainWindow.loadFile('index.html')
 
     mainWindow.once('ready-to-show', () => {
         mainWindow.show();
