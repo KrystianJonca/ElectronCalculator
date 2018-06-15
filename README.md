@@ -11,3 +11,6 @@ If you don't have git or node, you can install they here [Git](https://git-scm.c
     npm install
     # Run the app
     npm start
+
+# Electron example app
+[Here](https://github.com/KrystianJonca/Nice "Here") you can also check my Electron example app with comments lines
