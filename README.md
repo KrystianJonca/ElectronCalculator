@@ -1,5 +1,5 @@
 <p align="center">
-<img alt="Preview" src="https://raw.githubusercontent.com/KrystianJonca/electron-calculator/blob/master/ss.PNG"/>
+<img alt="Preview" src="https://raw.githubusercontent.com/KrystianJonca/electron-calculator/master/ss.PNG"/>
 </p>
 
 # ElectronCalculator
