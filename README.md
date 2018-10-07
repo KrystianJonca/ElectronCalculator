@@ -9,7 +9,7 @@ Simple calculator app, made using Electron
 If you don't have git or node, you can install they here [Git](https://git-scm.com/downloads "Git") [Node.js](https://nodejs.org/en/download/ "Node.js")
 
     # Clone this repository
-    git clone https://github.com/KrystianJonca/ElectronCalculator
+    git clone https://github.com/KrystianJonca/electron-calculator
     # Go into the repository
     cd electroncalculator
     # Install dependencies
@@ -17,5 +17,5 @@ If you don't have git or node, you can install they here [Git](https://git-scm.c
     # Run the app
     npm start
 
-# Electron example app
-[Here](https://github.com/KrystianJonca/Nice "Here") you can also check my Electron example app with comments lines
+## :paperclip: Electron example app
+[Here](https://github.com/KrystianJonca/nice "Here") you can also check my Electron example app with comments lines
